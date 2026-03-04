@@ -22,4 +22,5 @@ jobs:
       - name: Print Custom Message
         run: echo "Pipeline is working successfully!"
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo test, and deploy your project
+          echo test passed succesfully.

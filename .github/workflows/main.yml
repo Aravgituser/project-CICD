@@ -20,7 +20,8 @@ jobs:
         run: ls -la
 
       - name: Print Custom Message
-        run: echo "Pipeline is working successfully!"
+        run: exit 1 
+          echo "Pipeline is working successfully!"
           echo Add other actions to build,
           echo test, and deploy your project
           echo test passed succesfully.
